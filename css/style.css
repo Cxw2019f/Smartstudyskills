@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif|Poppins&display=swap');
+
+
+.site-header{
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  
+}
+.introduction{
+  font-size: 40px;
+  text-align:center;
+  border-bottom: 2px solid red;
+  padding-bottom: 2rem;
+  margin-left:50px;
+  margin-right:50px;
+  
+}
+.crowds{
+    margin-left:50px;
+  margin-right:50px;
+}
+.crowd{
+  border-bottom: 2px solid red;
+  padding-bottom: 1rem;
+  text-align: center;
+  
+}
+.crowd__type{
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px
+}
+.crowd__title{
+  font-size: 25px
+}
+.crowd__text{
+  font-size: 25px
+ 
+
+  
+}
+.crowd__meta{
+  font-size: 22px
+}
+.further-infor{ 
+    margin-left: 60px;}
+.site-footer{
+  font-family: 'Poppins', sans-serif;
+  margin-left: 60px;}
+
+.crowds{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:40px;
+    
+}
+
+img,video{ 
+  width: auto; 
+  height: auto;
+  max-width: 100%;
+    
+}
+/*Change the aspect ratio of the trading floor image*/
+.tradingImgWrapper{
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 70%;
+}
