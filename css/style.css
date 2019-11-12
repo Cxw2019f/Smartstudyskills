@@ -1,70 +1,113 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif|Poppins&display=swap');
 
+#navlist li{
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+font-size: 30px;
+}
+
+.main{
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+text-align: center;
+}
 
 .site-header{
   font-size: 2rem;
   font-family: 'Poppins', sans-serif;
-  text-align: center;
-  
+  text-align: center;}
+.tagline{
+    text-align: center;
 }
-.introduction{
+.attractor{
+    text-align: center
+}
+.intro{
   font-size: 40px;
   text-align:center;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid black;
   padding-bottom: 2rem;
   margin-left:50px;
-  margin-right:50px;
-  
+  margin-right:50px; 
 }
-.crowds{
-    margin-left:50px;
-  margin-right:50px;
-}
-.crowd{
-  border-bottom: 2px solid red;
-  padding-bottom: 1rem;
-  text-align: center;
-  
-}
-.crowd__type{
-  font-family: 'Poppins', sans-serif;
-  font-size: 40px
-}
-.crowd__title{
-  font-size: 25px
-}
-.crowd__text{
-  font-size: 25px
- 
-
-  
-}
-.crowd__meta{
-  font-size: 22px
-}
-.further-infor{ 
-    margin-left: 60px;}
-.site-footer{
-  font-family: 'Poppins', sans-serif;
-  margin-left: 60px;}
-
-.crowds{
-    display: grid;
+.study-skills{
+  text-align:center;
+  border-bottom: 2px solid black;
+  padding-bottom: 2rem;
+  margin-left:50px;
+  margin-right:50px; display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap:40px;
-    
-}
-
-img,video{ 
-  width: auto; 
-  height: auto;
-  max-width: 100%;
-    
-}
-/*Change the aspect ratio of the trading floor image*/
-.tradingImgWrapper{
-    position: relative;
-    height: 0;
-    overflow: hidden;
-    padding-bottom: 70%;
-}
+display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:40px;}
+.smart{grid-column: 1/3;}
+.featured{
+  text-align:center;
+  border-bottom: 2px solid black;
+  padding-bottom: 2rem;
+  margin-left:50px;
+  margin-right:50px;}
+.credits{ text-align:center;
+  border-bottom: 2px solid black;
+  padding-bottom: 2rem;
+  margin-left:50px;
+  margin-right:50px;}
+.site-footer{text-align:center;
+  border-bottom: 2px solid black;
+  padding-bottom: 2rem;
+  margin-left:50px;
+  margin-right:50px;}
+.what-is-it{ border-bottom: 2px solid black; text-align:center;
+  border-bottom: 2px solid black;
+  padding-bottom: 2rem;
+  margin-left:50px;
+  margin-right:50px; }
+.why{ border-bottom: 2px solid black; text-align:center;
+  border-bottom: 2px solid black;
+  padding-bottom: 2rem;
+  margin-left:50px;
+  margin-right:50px; }
+.how-practice{ border-bottom: 2px solid black; text-align:center;
+  border-bottom: 2px solid black;
+  padding-bottom: 2rem;
+  margin-left:50px;
+  margin-right:50px; }
+.when-practice{ border-bottom: 2px solid black; text-align:center;
+  border-bottom: 2px solid black;
+  padding-bottom: 2rem;
+  margin-left:50px;
+  margin-right:50px; }
+.tips-tricks{ border-bottom: 2px solid black; text-align:center;
+  border-bottom: 2px solid black;
+  padding-bottom: 2rem;
+  margin-left:50px;
+  margin-right:50px; }
+.resources{ border-bottom: 2px solid black; text-align:center;
+  border-bottom: 2px solid black;
+  padding-bottom: 2rem;
+  margin-left:50px;
+  margin-right:50px; }
+.pageTitle{ font-size: 25px;
+  text-align:center;}
+.who{border-bottom: 2px solid black; text-align:center;
+  border-bottom: 2px solid black;
+  padding-bottom: 2rem;
+  margin-left:50px;
+  margin-right:50px; }
+.why{border-bottom: 2px solid black; text-align:center;
+  border-bottom: 2px solid black;
+  padding-bottom: 2rem;
+  margin-left:50px;
+  margin-right:50px; }
+.how{border-bottom: 2px solid black; text-align:center;
+  border-bottom: 2px solid black;
+  padding-bottom: 2rem;
+  margin-left:50px;
+  margin-right:50px; }
+.credits{border-bottom: 2px solid black; text-align:center;
+  border-bottom: 2px solid black;
+  padding-bottom: 2rem;
+  margin-left:50px;
+  margin-right:50px; }
