@@ -1,31 +1,71 @@
 @import'normalize';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif|Poppins&display=swap');
 
-#navlist li{
-display: inline;
-list-style-type: none;
-padding-right: 20px;
-font-size: 30px;
+body{
+    padding: 0 200px;
+}
+.first{padding-left: 425px;}
+.navcontainer ul
+{
+    padding-left: 0;
+    margin-left: 0;
+
+    color: White;
+    float: left;
+    width: 100%;
+    font-family: arial, helvetica, sans-serif;
+}
+.navcontainer ul li {
+    display: inline;
 }
 
-.main{
+.navcontainer ul li a
+{
+    padding: 0.2em 2em;
+    background-color: #3cb371;
+    color: White;
+    text-decoration: none;
+    float: left;
+    border-right: 1px solid #fff;
+}
+
+.navcontainer ul li a:hover
+{
+    background-color: #369;
+    color: #fff;
+}
+
+.navcontainer ul li a.current {
+    background-color: #369;
+    color: #fff;
+}
+
+main{
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
-text-align: center;
+  text-align: center;
+  width: 95%;
+    margin: 0 auto;
 }
 
 .site-header{
   font-size: 2rem;
   font-family: 'Poppins', sans-serif;
-  text-align: center;}
+  text-align: center;
+}
+
+
 .tagline{
     text-align: center;
+    font-size: 35px;
 }
 .attractor{
-    text-align: center
+    text-align: center;
+    font-size: 30px;
+
 }
 .intro{
-  font-size: 40px;
+  font-size: 20px;
   text-align:center;
   border-bottom: 2px solid black;
   padding-bottom: 2rem;
@@ -50,7 +90,8 @@ display: grid;
   padding-bottom: 2rem;
   margin-left:50px;
   margin-right:50px;}
-.credits{ text-align:center;
+.credits{
+  text-align:center;
   border-bottom: 2px solid black;
   padding-bottom: 2rem;
   margin-left:50px;
@@ -64,22 +105,26 @@ display: grid;
   border-bottom: 2px solid black;
   padding-bottom: 2rem;
   margin-left:50px;
-  margin-right:50px; }
+  margin-right:50px;
+  text-justify: left; }
 .why{ border-bottom: 2px solid black; text-align:center;
   border-bottom: 2px solid black;
   padding-bottom: 2rem;
   margin-left:50px;
-  margin-right:50px; }
+  margin-right:50px;
+text-justify: left;}
 .how-practice{ border-bottom: 2px solid black; text-align:center;
   border-bottom: 2px solid black;
   padding-bottom: 2rem;
   margin-left:50px;
-  margin-right:50px; }
+  margin-right:50px;
+text-justify: left;}
 .when-practice{ border-bottom: 2px solid black; text-align:center;
   border-bottom: 2px solid black;
   padding-bottom: 2rem;
   margin-left:50px;
-  margin-right:50px; }
+  margin-right:50px;
+text-justify: left;}
 .tips-tricks{ border-bottom: 2px solid black; text-align:center;
   border-bottom: 2px solid black;
   padding-bottom: 2rem;
@@ -89,26 +134,32 @@ display: grid;
   border-bottom: 2px solid black;
   padding-bottom: 2rem;
   margin-left:50px;
-  margin-right:50px; }
+  margin-right:50px;
+    text-justify: left;}
 .pageTitle{ font-size: 25px;
-  text-align:center;}
+  text-align:center;
+    text-justify: left;}
 .who{border-bottom: 2px solid black; text-align:center;
   border-bottom: 2px solid black;
   padding-bottom: 2rem;
   margin-left:50px;
-  margin-right:50px; }
+  margin-right:50px;
+text-justify: left;}
 .why{border-bottom: 2px solid black; text-align:center;
   border-bottom: 2px solid black;
   padding-bottom: 2rem;
   margin-left:50px;
-  margin-right:50px; }
+  margin-right:50px;
+text-justify: left;}
 .how{border-bottom: 2px solid black; text-align:center;
   border-bottom: 2px solid black;
   padding-bottom: 2rem;
   margin-left:50px;
-  margin-right:50px; }
+  margin-right:50px;
+text-justify: left;}
 .credits{border-bottom: 2px solid black; text-align:center;
   border-bottom: 2px solid black;
   padding-bottom: 2rem;
   margin-left:50px;
-  margin-right:50px; }
+  margin-right:50px;
+text-justify: left;}
