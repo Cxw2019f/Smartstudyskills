@@ -11,61 +11,66 @@
     <link rel="stylesheet" href="sass/_typography.scss">
     <link rel="stylesheet" href="sass/_layout.scss">
     <link rel="stylesheet" href="sass/style.scss">
-
+ <link rel="stylesheet" href="js/main.js">
+     <link rel="stylesheet" href="js/vendor/jquery-3.4.1.min.js">
+      <link rel="stylesheet" href="js/vendor/modernizr-3.7.1.min.js">
+       <link rel="stylesheet" href="js/vendor/selectivizr-min.js">
 </head>
 
 <body>
 
+
  <header class="site-header">
-       <div class="first__image"><img src="images/images copy.png" alt="five hands holding words">
+       <div class="first__image"><img src="images/fullheader.png" alt="five hands holding words">
                 </div>
-        <h1>Smart Study Skills</h1>
 
-    </header>
-    <nav class="navcontainer" role=“navigation”>
+
+    <nav  class="topnav" id="myTopnav">
     <ul class="navlist">
-        <li><a href="index.html">Home</a></li>
-
+        <li id="active"><a href="index.html"class="current">Home</a></li>
         <li><a href="retrieval.html" >Retrieval Practicer</a></li>
-
         <li><a href="spacing.html">Spaced Practice</a></li>
         <li><a href="elaboration.html">Elaboration</a></li>
         <li><a href="interleaving.html">Interleaving</a></li>
-      <li><a href="concrete.html">Concrete Examples</a></li>
+        <li><a href="concrete.html">Concrete Examples</a></li>
         <li><a href="dualcoding.html">Dual Coding</a></li>
-        <li id="active"><a href="about.html"class="current">About</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="icon"><a href="javascript:void(0);" onclick="myFunction()">&#9776;</a></li>
     </ul>
 </nav>
+    </header>
 
-
-    <main role="main">
-          <p class="page-title"><b>About This Site</b></p>
-           <section class="who"><h2>Who is this Site For?</h2>
-<p>This site is for students. While students at any level may benefit from the site, it was created specifically for college students. </p>
+<h2 class="page-title">About This Site</h2>
+    <main class="main-content about-page">
+           <section class="who"><h3 class="wis">Who is this Site For?</h3>
+<p class="paragraph">This site is for students. While students at any level may benefit from the site, it was created specifically for college students. </p>
 </section>
-           <section class="why"><h2>Why was this Site Made?</h2>
-<p>A lot of college students have difficulty learning and remembering the material they are presented because they have never been taught any strategies to help them prepare for quizzes and exams and other assessments. The goal of this site is to give students some specific skills that they can begin to use to help them study smarter and more effectively.</p>
+           <section class="why"><h3 class="wis">Why was this Site Made?</h3>
+<p class="paragraph">A lot of college students have difficulty learning and remembering the material they are presented because they have never been taught any strategies to help them prepare for quizzes and exams and other assessments. The goal of this site is to give students some specific skills that they can begin to use to help them study smarter and more effectively.</p>
 </section>
-           <section class="how"><h2>How to Use the Site</h2>
-<p>There is a lot of material on the site and each skill takes time to master. It’s not possible to try everything all at once. You don’t have to use the skills in order. Start with one of the skills and try it for a specific test or quiz that is far enough away that you can try out the skill. As you get comfortable with the skill add another one. There are also some skills that work well together. For example Spaced Practice and Retrieval Practice work so well together they are sometimes called Spaced Retrieval.</p>
+           <section class="how"><h3 class="wis">How to Use the Site</h3>
+<p class="paragraph">There is a lot of material on the site and each skill takes time to master. It’s not possible to try everything all at once. You don’t have to use the skills in order. Start with one of the skills and try it for a specific test or quiz that is far enough away that you can try out the skill. As you get comfortable with the skill add another one. There are also some skills that work well together. For example Spaced Practice and Retrieval Practice work so well together they are sometimes called Spaced Retrieval.</p>
 </section>
-           <section class="credits"><h2>Credits</h2>
-<p>
+           <section class="credits"><h3 class="wis">Credits</h3>
+<p class="paragraph">
     <a href="https://www.learningscientists.org">This site owes a large debt to the wonderful materials in The Learning Scientist site </a>
 </p>
-    <p>Through the site itself, their blog, podcasts, videos and downloadable materials they provide a wealth of information on this topic. While that site serves teachers, students and parents, this site reframes a number of the core ideas from that site specifically with students in mind. 
+    <p class="paragraph">Through the site itself, their blog, podcasts, videos and downloadable materials they provide a wealth of information on this topic. While that site serves teachers, students and parents, this site reframes a number of the core ideas from that site specifically with students in mind.
         </p>
-    <p>There is a wealth of information on the web and each skill has a Resources area with links to more information.</p>
+    <p class="paragraph">There is a wealth of information on the web and each skill has a Resources area with links to more information.</p>
     
-    <p>Thank you to all of the researchers studying how people learn and the teachers and students working to put the research into practice in effective ways.</p>
+    <p class="paragraph">Thank you to all of the researchers studying how people learn and the teachers and students working to put the research into practice in effective ways.</p>
 </section>
+   <seltion>
+        <div class="tradingImgwrapper"><img src="images/group-of-students.jpg" alt="illustration image with graduate college study"></div>
+   </seltion>
     </main>
 
     <footer class="site-footer">
         <div class="license">
-            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</div>
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><p class="foot">This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a></p></div>
         <div class="designed">
-            <p>Designed by Camika Wang</p>
+            <p class="foot">Designed by Camika Wang</p>
         </div>
     </footer>
     <script src="js/vendor/modernizr-3.7.1.min.js"></script>

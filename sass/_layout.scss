@@ -1,119 +1,136 @@
 
+main{
+    clear: both;
+}
+
 @media (min-width:600px){
     body{
-    padding: 0 10px;
+    padding: 0 100px;
 }
 }
 
 @media (min-width:1500px){
     body{
-    padding: 0 50px;
+    padding: 0 200px;
 }
-}
-
-
-//Home Page Study SKills
-.study-skills{
-    text-align:center;
-
-}
-  .skills p{border: 2px solid #369;
-  padding-bottom: 2rem;
 }
 
 @media (min-width:600px){
-    .study-skills{
-    display: grid;
+    .skill-page{ display: grid;
     grid-gap:40px;
     grid-template-columns: 1fr 1fr;
 
-    h2{
+    }
+    .page-title{
         grid-column: 1/-1;
+          text-align: center;
+         color: #369;
     }
+
+    .resources{grid-column: 1/-1;}
+    .study-skills{
+    display: grid;
+    grid-gap:40px;
+        grid-template-columns: 1fr 1fr;}
+
     }
-}
+ .attractor{ grid-column: 1/-1;
+         font-size:30px;
+         color: #369;
+         text-align: center; }
+
+  .intro{text-align: center;
+        font-size: 15px;
+     color: #369;}
+  .second__image{ grid-column: 1/-1;
+    margin-top: 35px;
+    margin-left: 150px;}
+
+     .foot{color: #3cb371;}
+    .wis{color: darkorange;}
+    .word{color: darkorange;}
+    .paragraph{color: #369;}
 
 @media (min-width:900px){
-    .study-skills{
-    grid-template-columns: 1fr 1fr 1fr;
-    }}
+    .skill-page{ display: grid;
+ grid-template-columns: 1fr 1fr ;
+    margin: 50px 30px 0px 30px;
+    grid-gap: 40px 90px;
+    text-align: justify;
+        }
 
-
-.resource-type{
-    color: #999;
-}
-
-body{
-//    padding: 0 200px;
-}
-
-.navcontainer ul
-{
-    padding-left: 0;
-    margin-left: 0;
-
-    color: White;
-    float: left;
-    width: 100%;
-    font-family: arial, helvetica, sans-serif;
-}
-.navcontainer ul li {
-    display: inline;
-}
-
-.navcontainer ul li a
-{
-    padding: 0.2em 2em;
-    background-color: #3cb371;
-    color: White;
-    text-decoration: none;
-    float: left;
-    border-right: 1px solid #fff;
-}
-
-.navcontainer ul li a:hover
-{
-    background-color: #369;
-    color: #fff;
-}
-
-.navcontainer ul li a.current {
-    background-color: #369;
-    color: #fff;
-}
-
-
-
-.site-header{
-  font-size: 2rem;
-  font-family: 'Poppins', sans-serif;
-  display: grid;
-    grid-template-columns: 447px 1fr;
-
-    h1{
-        margin: 0 0 0 1rem;
-        color: orange;
+    .about-page{ display: grid;
+    grid-gap:40px;
+        grid-template-columns: 1fr 1fr 1fr;
+        }
+    .second__image{ grid-column:2/-1;
+    margin-top: 35px;
+        margin-left: 0px;
     }
-}
 
+    .intro{text-align: center;
+        font-size: 15px;
+     color: #369;}
+    .study-skills{
+    grid-template-columns:  1fr 1fr 1fr;
+    }
+    .featuredcredit{  display: grid;
+    grid-gap:40px;
+    grid-template-columns: 1fr 1fr;
+    margin: 15px 50px;}
+    .pagetitle{margin-top: 100px;}
 
-.page-title{
-    text-align: center;
-    font-size: 35px;
-}
-.attractor{
+.page-title {
+     padding-left: 125px;
+        padding-right: 125px;
+    margin-top: 50px;
+    grid-column: 1/-1;
     text-align: center;
     font-size: 30px;
+    color: #369;
+}
+    .about-page{ margin: 50px 30px 0px 30px;
+    grid-gap: 0 90px;
+    text-align: justify;}
+
+ .attractor{ grid-column: 1/-1;
+         padding-left: 125px;
+        padding-right: 125px;
+         font-size:30px;
+         color: #369;
+         text-align: center; }
+.smart{grid-column: 1/-1;
+    text-align: center;
+    color:chocolate;}
+.what{ grid-column: 1/-1;
+margin-top: 10px;
+margin-right: 250px;}
+.why-1{padding-top: 50px;}
+.why-2{padding-top: 50px;}
+.tips-1{padding-top: 50px;}
+.p{text-align: justify;
+ }
+   .how-con {margin-top: 50px;}
+    .pod1 {margin-top: 50px;}
+    .pod2 {margin-top: 50px;}
+    .hometitile{grid-column: 1/-1;
+    text-align: center;}
+    .downloads{grid-column: 1/-1;}
+.who{grid-column: 1/-1;
 
 }
+    .tips-dua{margin-top: 50px;
+    color: }
+    .foot{color: #3cb371;}
+    .wis{color: darkorange;}
+    .word{color: darkorange;}
+    .paragraph{color: #369;}
+    .tips-con{margin-top: 50px;}
+    .why-elab{margin-top: 50px;}
+    .how1{margin-top: 50px;}
+    .how2{margin-top: 50px;}
+    .tips-elab1{margin-top: 50px;}
+.license{margin: 20px 20px;}
+.designed{margin: 0 20px;}
+}
 
-
-
-
-
-
-.credits{border-bottom: 2px solid black;text-align:center;
-  border-bottom: 2px solid #369;
-  padding-bottom: 2rem;
-text-justify: left;
-grid-template-columns: 1fr 1fr}

@@ -11,100 +11,167 @@
     <link rel="stylesheet" href="sass/_typography.scss">
     <link rel="stylesheet" href="sass/_layout.scss">
     <link rel="stylesheet" href="sass/style.scss">
-
+ <link rel="stylesheet" href="js/main.js">
+     <link rel="stylesheet" href="js/vendor/jquery-3.4.1.min.js">
+      <link rel="stylesheet" href="js/vendor/modernizr-3.7.1.min.js">
+       <link rel="stylesheet" href="js/vendor/selectivizr-min.js">
 </head>
 
-<body  class="spacing">
+<body class="spacing">
 
  <header class="site-header">
-       <div class="first__image"><img src="images/images copy.png" alt="five hands holding words">
+       <div class="first__image"><img src="images/fullheader.png" alt="five hands holding words">
                 </div>
-        <h1>Smart Study Skills</h1>
 
-    </header>
-    <nav class="navcontainer" role=“navigation”>
+
+    <nav  class="topnav" id="myTopnav">
     <ul class="navlist">
-        <li><a href="index.html">Home</a></li>
-
+        <li id="active"><a href="index.html"class="current">Home</a></li>
         <li><a href="retrieval.html" >Retrieval Practicer</a></li>
-
-        <li id="active"><a href="spacing.html"class="current">Spaced Practice</a></li>
+        <li><a href="spacing.html">Spaced Practice</a></li>
         <li><a href="elaboration.html">Elaboration</a></li>
         <li><a href="interleaving.html">Interleaving</a></li>
-      <li><a href="concrete.html">Concrete Examples</a></li>
+        <li><a href="concrete.html">Concrete Examples</a></li>
         <li><a href="dualcoding.html">Dual Coding</a></li>
         <li><a href="about.html">About</a></li>
+        <li class="icon"><a href="javascript:void(0);" onclick="myFunction()">&#9776;</a></li>
     </ul>
-</nav>
-   <main>
+     </nav></header>
+
+
+
       <h2 class="page-title">Spaced Practice</h2>
 
-<p class="attractor"> Success doesn’t come overnight.</p>
+            <p class="attractor"> Success doesn’t come overnight.</p>
 
-<section class="what"><h3><b>What is it?</b></h3>
-    <p>This simple method of spacing out your studying makes a big difference in helping to form lasting memories. It’s a pretty simple concept: space out the times that you study. Instead of spending 5 hours the night before a test studying you would spread out that five hours over the course of a few weeks before the test.</p>
-    </section>
-<section class="why"><h3><b>Why is it Effective?</b></h3>
-    •	<ul><li><b>Refresh:</b> You Naturally forget information over time. But if you refresh your memory periodically, before you’ve forgotten</li>
-        •	<li><b>Well-Travelled Path:</b> To use our jungle path analogy, spacing increases the number of times you walk down the path. It also spaces out when you do the trips. Doing a number of trips over a period of time helps you to really remember the path.</li>
-        •	<li><b>Let the information set:</b> if we compare learning to building a wall, spacing allows time for the mortar for a layer of bricks to set before we add the next layer of bricks.</li></ul></section>
+    <main class="main-content skill-page">
+       <section class="what">
+            <h3 class="wis"><b>What is it?</b></h3>
+            <p class="paragraph">This simple method of spacing out your studying makes a big difference in helping to form lasting memories. It’s a pretty simple concept: space out the times that you study. Instead of spending 5 hours the night before a test studying you would spread out that five hours over the course of a few weeks before the test.</p>
+        </section>
+        <section class="why">
+            <h3  class="wis"><b>Why is it Effective?</b></h3>
 
-<section class="how"><h3><b>How to Use </b></h3>
-    	<ul><li>One way is to use your calendar to write down times to study. Whether you use paper or digital calendar give yourself set times to practice for a test in the weeks before the test.</li>
-        	<li>Set up consistent, short study sessions over time instead of cramming the night before.</li>
-        	<li>If you need help setting or remembering a schedule </li></ul></section>
-<section class="when"><h3><b>When to Use </b></h3>
-    	<ul><li>As you might guess, this technique works best when you have time to study before you need to remember. You’ll need days at least, weeks at best.</li>
-        	<li>Other than that, you can use this to help you learn pretty much everything.</li></ul></section>
-<section class="tips"><h3><b>Tips &amp; Tricks</b></h3>
-    	<ul><li>Use this in combination with other study techniques. Spacing just spreads out when you study. Make sure to use the other skills on this site when you do study and don’t just reread your notes.</li>
-        	<li>Block out realistic amounts of time to study. Don’t schedule 2 hours if you won’t be able to actually do that. Even scheduling 15–30 minute blocks that are spaced out will give benefits.</li></ul></section>
-
-<section class="resources"><h3><b>Resources: </b></h3>
-
-    <div class="downloads">
-        <h4><b>Downloads</b></h4>
-            <ul><li><spam class="resources-type">[pdf 1 page quick guide]</spam><a href="https://www.learningscientists.org/s/Spaced-Practice-esre.pdf "> Learn to Study Using Spaced Practice:</a> </li>
-                <li><spam class="resources-type">[pdf]</spam><a href="https://learningcenter.unc.edu/files/2017/07/Weekly-Action-Plan-S17.pdf  "> Weekly Action Plan</a> </li>
-           < li><a href="https://learningcenter.unc.edu/tips-and-tools/weekly-action-plan/">For more information on the plan visit </a></li></ul>
-    </div>
-   <div class="videos">
-    <ul>
-          <li>
-              <h4>[video 1:41]<a href="https://youtu.be/3WJYp98eys8">Study Strategies: Spaced Practice</a></h4><iframe width="560" height="315" src="https://www.youtube.com/embed/3WJYp98eys8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
-
-                         <li>
-                               <h4> [video 4:27]<a href="https://youtu.be/cVf38y07cfk"> Spaced Repetition in Learning Theory:</a> </h4> <iframe width="560" height="315" src="https://www.youtube.com/embed/cVf38y07cfk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                          </li>
-
-                    <li> <h4>
-                           [video 7:46] <a href="https://youtu.be/eVajQPuRmk8 ">The Most Powerful Way to Remember What You Study </a>
-                      </h4>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/eVajQPuRmk8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </li>
-      </ul>
-
-                        </div>
+                    <ul class="paragraph">
+                           <li><b>Refresh:</b> You Naturally forget information over time. But if you refresh your memory periodically, before you’ve forgotten</li>
+                    </ul>
+                </section>
+                <section class="why-1">
+                     <ul class="paragraph">
+                          <li><b>Well-Travelled Path:</b> To use our jungle path analogy, spacing increases the number of times you walk down the path. It also spaces out when you do the trips. Doing a number of trips over a period of time helps you to really remember the path.</li>
+                     </ul>
+                 </section>
+               <section class="why-2">
+                    <ul class="paragraph">
+                         <li><b>Let the information set:</b> if we compare learning to building a wall, spacing allows time for the mortar for a layer of bricks to set before we add the next layer of bricks.</li>
+                    </ul>
+                </section>
 
 
-   <div class="podcasts">
-       <h4><b> Podcasts and web sites</b></h4>
-            <ul><li><spam class="resources-type">[website]</spam> <a href="http://www.learningscientists.org/retrieval-practice ">The Learning Scientists: Retrieval Practice </a></li>
-                <li><spam class="resources-type">[website]</spam> <a href="https://collegeinfogeek.com/spaced-repetition-memory-technique/ ">How to Remember More of What You Learn with Spaced Repetition </a>This page also has a video that is linked above The Most Powerful Way to Remember What You Study</li>
-                <li><spam class="resources-type">[web app]</spam> <a href="https://xferguson.github.io/srs-scheduler/ ">SRS Scheduler</a> </li>
-                <li><spam class="resources-type">[web app]</spam> <a href="https://apps.ankiweb.net/ ">Anki </a>This is a spaced repetition study app. The online and desktop versions are free as is the Android app. The iOS app costs $25 and that cost is used to pay for development of the platform.</li>
-                <li><spam class="resources-type">[podcast 21:09]</spam> <a href="https://www.learningscientists.org/learning-scientists-podcast/2017/10/4/episode-4-spaced-practice ">Spaced Practice </a></li>
-                <li><spam class="resources-type">[podcast 16:32]</spam> <a href="https://www.learningscientists.org/learning-scientists-podcast/2018/3/7/episode-14-how-students-can-use-spacing-and-retrieval-practice ">How Students Can use Spacing and Retrieval Practice</a> </li>
-                <li><spam class="resources-type">[podcast 11:28]</spam> <a href="https://www.learningscientists.org/learning-scientists-podcast/2017/10/18/episode-5-bite-size-research-on-spaced-retrieval ">Bite-Size Research on Spaced Retrieval </a></li>
-                <li><spam class="resources-type">[podcast 21:21]</spam><a href="https://www.learningscientists.org/learning-scientists-podcast/2018/6/6/episode-20-sleep-learning-and-self-care"> Sleep, Learning, and Self Care </a> </li></ul>
-   </div>
-      </section>
-   </main>
+        <section class="how">
+            <h3 class="wis"><b>How to Use </b></h3>
+            <ul class="paragraph">
+                <li>One way is to use your calendar to write down times to study. Whether you use paper or digital calendar give yourself set times to practice for a test in the weeks before the test.</li>
+                <li>Set up consistent, short study sessions over time instead of cramming the night before.</li>
+                <li>If you need help setting or remembering a schedule </li>
+            </ul>
+        </section>
+        <section class="when">
+            <h3 class="wis"><b>When to Use </b></h3>
+            <ul class="paragraph">
+                <li>As you might guess, this technique works best when you have time to study before you need to remember. You’ll need days at least, weeks at best.</li>
+                <li>Other than that, you can use this to help you learn pretty much everything.</li>
+            </ul>
+        </section>
+        <section class="tips">
+            <h3 class="wis"><b>Tips &amp; Tricks</b></h3>
+            <ul class="paragraph">
+                <li>Use this in combination with other study techniques. Spacing just spreads out when you study. Make sure to use the other skills on this site when you do study and don’t just reread your notes.</li>
+                <li>Block out realistic amounts of time to study. Don’t schedule 2 hours if you won’t be able to actually do that. Even scheduling 15–30 minute blocks that are spaced out will give benefits.</li>
+            </ul>
+        </section>
+
+        <section class="resources">
+            <h3 class="wis"><b>Resources: </b></h3>
+  <div class="videos">
+               <p> [video 1:41]<a href="https://youtu.be/3WJYp98eys8">Study Strategies: Spaced Practice</a>
+                </p>
+                <div class="videoWrapper ratio-16-9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3WJYp98eys8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    </div>
+                <p>[video 4:27]<a href="https://youtu.be/cVf38y07cfk"> Spaced Repetition in Learning Theory:</a>
+                </p>
+               <div class="videoWrapper ratio-16-9">
+                     <iframe width="560" height="315" src="https://www.youtube.com/embed/cVf38y07cfk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+               </div>
+
+
+<p>
+                    [video 7:46] <a href="https://youtu.be/eVajQPuRmk8 ">The Most Powerful Way to Remember What You Study </a>
+                </p>
+               <div class="videoWrapper ratio-16-9">
+                     <iframe width="560" height="315" src="https://www.youtube.com/embed/eVajQPuRmk8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+      </div></div></section>
+            <section class="downloads">
+                <h4><b class="paragraph">Downloads</b></h4>
+                <ul>
+                    <li>
+                        <spam class="resources-type">[pdf 1 page quick guide]</spam><a href="https://www.learningscientists.org/s/Spaced-Practice-esre.pdf "> Learn to Study Using Spaced Practice:</a>
+                    </li>
+                    <li>
+                        <spam class="resources-type">[pdf]</spam><a href="https://learningcenter.unc.edu/files/2017/07/Weekly-Action-Plan-S17.pdf  "> Weekly Action Plan</a>
+                    </li>
+                    < li><a href="https://learningcenter.unc.edu/tips-and-tools/weekly-action-plan/">For more information on the plan visit </a></li>
+                </ul>
+            </section>
+
+
+            <section class="podcasts">
+
+                <h4><b class="paragraph"> Podcasts and web sites</b></h4>
+                <ul>
+                    <li>
+                        <spam class="resources-type">[website]</spam> <a href="http://www.learningscientists.org/retrieval-practice ">The Learning Scientists: Retrieval Practice </a>
+                    </li>
+                    <li>
+                        <spam class="resources-type">[website]</spam> <a href="https://collegeinfogeek.com/spaced-repetition-memory-technique/ ">How to Remember More of What You Learn with Spaced Repetition </a>This page also has a video that is linked above The Most Powerful Way to Remember What You Study
+                    </li></ul></section>
+
+                   <section class="pod1"><ul><li>
+                        <spam class="resources-type">[web app]</spam> <a href="https://xferguson.github.io/srs-scheduler/ ">SRS Scheduler</a>
+                    </li>
+                   <li>
+                        <spam class="resources-type">[web app]</spam> <a href="https://apps.ankiweb.net/ ">Anki </a>This is a spaced repetition study app. The online and desktop versions are free as is the Android app. The iOS app costs $25 and that cost is used to pay for development of the platform.
+                    </li>
+                     </ul>
+            </section>
+
+                  <section class="pod2"><ul> <li>
+                        <spam class="resources-type">[podcast 21:09]</spam> <a href="https://www.learningscientists.org/learning-scientists-podcast/2017/10/4/episode-4-spaced-practice ">Spaced Practice </a>
+                    </li>  <li>
+                        <spam class="resources-type">[podcast 16:32]</spam> <a href="https://www.learningscientists.org/learning-scientists-podcast/2018/3/7/episode-14-how-students-can-use-spacing-and-retrieval-practice ">How Students Can use Spacing and Retrieval Practice</a>
+                    </li>
+                    <li>
+                        <spam class="resources-type">[podcast 11:28]</spam> <a href="https://www.learningscientists.org/learning-scientists-podcast/2017/10/18/episode-5-bite-size-research-on-spaced-retrieval ">Bite-Size Research on Spaced Retrieval </a>
+                    </li>
+                    <li>
+                        <spam class="resources-type">[podcast 21:21]</spam><a href="https://www.learningscientists.org/learning-scientists-podcast/2018/6/6/episode-20-sleep-learning-and-self-care"> Sleep, Learning, and Self Care </a>
+                    </li>
+                </ul>
+            </section>
+
+    </main>
 
     <footer class="site-footer">
         <div class="license">
-            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</div>
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><p class="foot">This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a></p></div>
         <div class="designed">
-            <p>Designed by Camika Wang</p>
+            <p class="foot">Designed by Camika Wang</p>
         </div>
     </footer>
     <script src="js/vendor/modernizr-3.7.1.min.js"></script>
@@ -116,4 +183,3 @@
 </body>
 
 </html>
-

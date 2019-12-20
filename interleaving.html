@@ -11,78 +11,79 @@
     <link rel="stylesheet" href="sass/_typography.scss">
     <link rel="stylesheet" href="sass/_layout.scss">
     <link rel="stylesheet" href="sass/style.scss">
-
+ <link rel="stylesheet" href="js/main.js">
+     <link rel="stylesheet" href="js/vendor/jquery-3.4.1.min.js">
+      <link rel="stylesheet" href="js/vendor/modernizr-3.7.1.min.js">
+       <link rel="stylesheet" href="js/vendor/selectivizr-min.js">
 </head>
 
 <body class="interleaving">
 
-    <header class="site-header">
-        <div class="first__image"><img src="images/images copy.png" alt="five hands holding words">
-        </div>
-        <h1>Smart Study Skills</h1>
 
-    </header>
-    <nav class="navcontainer" role=“navigation”>
-        <ul class="navlist">
-            <li><a href="index.html">Home</a></li>
-
-            <li><a href="retrieval.html">Retrieval Practicer</a></li>
-
-            <li><a href="spacing.html">Spaced Practice</a></li>
-            <li><a href="elaboration.html">Elaboration</a></li>
-            <li id="active"><a href="interleaving.html" class="current">Interleaving</a></li>
-            <li><a href="concrete.html">Concrete Examples</a></li>
-            <li><a href="dualcoding.html">Dual Coding</a></li>
-            <li><a href="about.html">About</a></li>
-        </ul>
-    </nav>
+  <header class="site-header">
+       <div class="first__image"><img src="images/fullheader.png" alt="five hands holding words">
+                </div>
 
 
-    <main>
-        <h2 class="page-title">Interleaving</h2>
+    <nav  class="topnav" id="myTopnav">
+    <ul class="navlist">
+        <li id="active"><a href="index.html"class="current">Home</a></li>
+        <li><a href="retrieval.html" >Retrieval Practicer</a></li>
+        <li><a href="spacing.html">Spaced Practice</a></li>
+        <li><a href="elaboration.html">Elaboration</a></li>
+        <li><a href="interleaving.html">Interleaving</a></li>
+        <li><a href="concrete.html">Concrete Examples</a></li>
+        <li><a href="dualcoding.html">Dual Coding</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="icon"><a href="javascript:void(0);" onclick="myFunction()">&#9776;</a></li>
+    </ul>
+      </nav></header>
 
-        <p class="attractor">Change it up to make it last.</p>
+ <h1 class="page-title">Interleaving</h1>
 
-        <section class="what">
-            <h3>What is it?</h3>
-            <p> When using Interleaving you switch between ideas during a study session. For example, if you were studying basic math, instead of practicing a lot of addition</p>
+        <h2 class="attractor">Change it up to make it last.</h2>
+
+    <main class="main-content skill-page">
+        <section class="what-inter">
+             <h3 class="wis">What is it?</h3>
+            <p class="paragraph"> When using Interleaving you switch between ideas during a study session. For example, if you were studying basic math, instead of practicing a lot of addition</p>
         </section>
 
         <section class="why">
-            <h3>Why is it Effective?</h3>
-            <ul>
-                <li><b>Connections:</b> studying ideas next to each other helps you to see what connects them. These connections can both help to clarify material and make stonger pathways for memory.</li>
-
-                <li><b>Context:</b> If you study the same things in the same order, you get used to that context for remembering them. If the test changes the order then context changes and it will be harder to remember. When you interleave you’re more ready to remember information in different contexts.</li>
+            <h3 class="wis">Why is it Effective?</h3>
+            <ul class="paragraph">
+                <li><b>Connections:</b> studying ideas next to each other helps you to see what connects them. These connections can both help to clarify material and make stonger pathways for memory.</li></ul></section>
+ <section class="why-inter">
+               <ul class="paragraph"> <li><b>Context:</b> If you study the same things in the same order, you get used to that context for remembering them. If the test changes the order then context changes and it will be harder to remember. When you interleave you’re more ready to remember information in different contexts.</li>
             </ul>
         </section>
 
         <section class="how">
-            <h3>How to Use </h3>
-            <ul>
+            <h3 class="wis">How to Use </h3>
+            <ul class="paragraph">
                 <li>Switch between topics (ie addition, subtraction, division, fractions)</li>
                 <li>Switch the order you study the topics. Don’t always switch betwee the same topics in the same order. Vary it up.</li>
             </ul>
         </section>
         <section class="when">
-            <h3> When to Use </h3>
-            <ul>
+            <h3 class="wis"> When to Use </h3>
+            <ul class="paragraph">
                 <li>Interleaving works best when moving between topics that are related to each other. So it’s good to switch between topics in a class, but not as effective if you quickly switch from class to class.</li>
                 <li>This is easiest for information or concepts that you can write down on cards.</li>
             </ul>
         </section>
         <section class="tips">
-            <h3>Tips &amp; Tricks</h3>
-            <ul>
+            <h3 class="wis">Tips &amp; Tricks</h3>
+            <ul class="paragraph">
                 <li>Don’t go too fast. Although this is about switching it up, make sure you understand an idea before moving on to the next one.</li>
                 <li>Put your study materials on flash cards and then make one pile and jumble them up each time yoru study. There are apps that will help do this for you.</li>
             </ul>
         </section>
         <section class="resources">
-            <h3> Resources: </h3>
+            <h3 class="wis"> Resources: </h3>
 
            <div class="downloads">
-                 <h4>Downloads</h4>
+                 <h4 class="paragraph">Downloads</h4>
                 <ul>
                     <li>
                         <ul><span class="resouce-type">[pdf 1 page quick guide]</span><a href="https://www.learningscientists.org/s/Interleaving-739j.pdf">Learn to Study Using Interleaving</a></ul>
@@ -91,11 +92,13 @@
             </div>
 
             <div class="videoWrapper ratio-16-9">
-                <h4>Videos</h4><span class="resouce-type">[video 2:04]</span> <a href="https://youtu.be/kV64Bu6sec0">Study Strategies: Interleaving</a> <iframe width="560" height="315" src="https://www.youtube.com/embed/kV64Bu6sec0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h4 class="paragraph">Videos</h4> <iframe width="560" height="315" src="https://www.youtube.com/embed/kV64Bu6sec0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>[video 2:04]<a href="https://youtu.be/kV64Bu6sec0">Study Strategies: Interleaving</a>
+                </p>
 
             </div>
             <div class="podcasts">
-                <h4>Podcasts and web sites</h4>
+                <h4 class="paragraph">Podcasts and web sites</h4>
                 <ul>
                     <li><span class="resources-type">[website]</span> The Learning Scientists: <a href="http://www.learningscientists.org/interleaving"></a></li>
 
@@ -112,9 +115,9 @@
 
     <footer class="site-footer">
         <div class="license">
-            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</div>
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><p class="foot">This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a></p></div>
         <div class="designed">
-            <p>Designed by Camika Wang</p>
+            <p class="foot">Designed by Camika Wang</p>
         </div>
     </footer>
     <script src="js/vendor/modernizr-3.7.1.min.js"></script>
