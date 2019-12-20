@@ -55,7 +55,7 @@ main{
 
 @media (min-width:900px){
     .skill-page{ display: grid;
- grid-template-columns: 1fr 1fr ;
+ grid-template-columns: 1fr 1fr 1fr;
     margin: 50px 30px 0px 30px;
     grid-gap: 40px 90px;
     text-align: justify;
@@ -63,7 +63,7 @@ main{
 
     .about-page{ display: grid;
     grid-gap:40px;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         }
     .second__image{ grid-column:2/-1;
     margin-top: 35px;
@@ -120,7 +120,9 @@ margin-right: 250px;}
     .downloads{grid-column: 1/-1;}
 .who{grid-column: 1/-1;
 
-}
+    }.what-retrieval{grid-column: 1/-1;
+
+    padding-right: 450px;}
     .tips-dua{margin-top: 50px;
     color: }
     .foot{color: #3cb371;}
@@ -128,7 +130,7 @@ margin-right: 250px;}
     .word{color: darkorange;}
     .paragraph{color: #369;}
     .tips-con{margin-top: 50px;}
-    .why-elab{margin-top: 50px;}
+
     .how1{margin-top: 50px;}
     .how2{margin-top: 50px;}
     .tips-elab1{margin-top: 50px;}
